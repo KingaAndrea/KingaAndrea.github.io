@@ -2,28 +2,47 @@ body {
   background-color: #f5f5f5;
 }
 
-.test {
-  border: 1px solid #000;
-  margin: 5px;
-  padding: 5px;
+/* .test1 {
+  border: 5px solid #000;
+  margin: 2px;
+  padding: 2px;
+} */
+#content-wrap {
+  border-color: blue;
 }
-
 #left-sidebar {
   width: 30%;
   float: left;
   border-color: red;
+  background-color: ;
 }
 
 #content {
-  width: 50%;
-  padding-left: 35%;
+  border-color: green;
+  padding-left: 32%;
 }
+#content div {
+  border-color: lightgreen;
+}
+
 .page-block {
   background-color: white;
   padding: 24px;
   margin: 10px;
-  border: 1px solid #777777;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+#my-picture {
+  border-radius: 50%;
+}
+#motto {
+  color: darkgreen;
+}
+
+#top-menu-bar {
+  text-align: center;
+  color: #fff;
+  background-color: #334455;
 }
 #top-menu-bar li {
   margin: 0;
@@ -42,5 +61,9 @@ body {
 }
 #top-menu-bar a:hover {
   color: #334455;
-  background-color: #fff;
+  background-color: #ffffff;
+}
+
+.favorite {
+  font-weight: bold;
 }
